@@ -1,2 +1,3 @@
 # ContactOpedia
-Contactopedia - React project
+
+Contactopedia - React project - initial commit
