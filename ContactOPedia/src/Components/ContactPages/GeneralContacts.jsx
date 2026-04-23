@@ -1,12 +1,11 @@
 import Contact from "./Contact";
-
-function FavoriteContacts(props) {
+function GeneralContacts(props) {
   return (
     <div
       className="col-12 p-2"
       style={{ border: "10px", backgroundColor: "#323637" }}
     >
-      <div className="text-center text-white-50">Favorite Contacts</div>
+      <div className="text-center text-white-50">General Contacts</div>
 
       <div className="p-2">
         {props.contacts.map((contact, index) => (
@@ -21,4 +20,4 @@ function FavoriteContacts(props) {
     </div>
   );
 }
-export default FavoriteContacts;
+export default GeneralContacts;
